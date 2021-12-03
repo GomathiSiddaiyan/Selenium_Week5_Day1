@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNgBasicSequencePrgm" >
+	<test thread-count="5" name="TestNgBasicSequencePrgm1" verbose="5">
+		<classes>
+			<class name="week5.day1.CreateLeadBasic" />
+			<class name="week5.day1.DuplicateLeadBasic" />
+			<class name="week5.day1.DeleteLeadBasic" />
+			<class name="week5.day1.EditLeadBasic" />
+			<class name="week5.day1.MergeLeadBasic" />
+		</classes>
+	</test> <!-- TestNgBasicPrgm1 -->
+</suite> <!-- TestNgBasicPrgm -->
